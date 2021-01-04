@@ -1,0 +1,127 @@
+/* Buttons */
+.LikeButton{
+    display: inline-block;
+    left:10px;
+    bottom:10px;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size:30px;
+    opacity: 0.6;
+    z-index: 2;
+}
+.LikeButton:hover{
+    opacity: 0.9;
+}
+
+.DislikeButton{
+    position: absolute;
+    display: inline-block;
+    right:10px;
+    bottom:10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size:30px;
+    opacity: 0.6;
+    z-index: 2;
+}
+.DislikeButton:hover{
+    opacity: 0.9;
+}
+
+.InfoButton{
+    position: absolute;
+    display: inline-block;
+    margin:auto;
+    bottom:10px;
+    right: 30%;
+    left:30%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size:30px;
+    opacity: 0.6;
+    z-index: 2;
+}
+.InfoButton:hover{
+    opacity: 0.9;
+}
+
+
+
+/* Inputs */
+.genre{
+    font-size: 15px;
+    background-color : rgb(67,104,181);
+    padding:5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:white;
+    border-radius: 15px;
+    text-align: right;
+    width:100%;
+}
+
+.poster{
+    width: 100%;
+    top: 60%;
+}
+
+* img{
+    box-sizing: unset;
+}
+
+.rating{
+    font-size:40px;
+    float: right;
+    padding:25px 0;
+    border : solid green 2px;
+    border-radius:50%;
+    width: 110px;
+    text-align: center;
+  }
+
+
+  .scroll{
+      overflow-y:auto; 
+      max-height: 260px;
+} 
+
+.runtime{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.movieTitle{
+    margin-bottom: 4px;
+}
+
+/* Slide up */
+.move{
+    background-color: white;
+    opacity: 0.75;
+    z-index: 1;
+    padding:12px; 
+    padding-bottom: 0;
+    position: relative;
+    height: 0px;
+    bottom: 0px;
+    overflow:hidden;
+    
+}
+
+.transform {
+    -webkit-transition: all 1.5s ease;  
+    -moz-transition: all 1.5s ease;  
+    -o-transition: all 1.5s ease;  
+    -ms-transition: all 1.5s ease;  
+    transition: all 1.5s ease;
+  }
+
+  .transform-active{
+    bottom: 450px;
+    height: 450px;
+  }

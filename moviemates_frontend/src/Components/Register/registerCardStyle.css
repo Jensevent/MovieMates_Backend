@@ -1,0 +1,47 @@
+.register-card{
+    max-height: 46.5rem;
+    width: 23rem ;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 20px;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+.vertical-center {
+    position: flex;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.error{
+    color: #ff0f0f;
+}
+
+@media screen and (min-height: 44rem){
+    .register-card{
+        overflow-y: hidden;
+    }
+}
+
+.login-btn{
+    background-color: #ea3232;
+}
+
+.href{
+    border:none;
+    color:#007bff;
+    background:none;
+    padding:0px;
+}
+
+.href:hover{
+    text-decoration: underline;
+    color:#0263ca;
+}
+
+.info{
+    font-size: 11px ;
+    margin-left: 20px;
+}

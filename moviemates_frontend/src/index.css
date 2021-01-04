@@ -1,0 +1,13 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cookieinfo-close{
+  box-shadow : 1px 1px 5px;
+}
+
+body{
+  min-height: 100%;
+  overflow: hidden;
+}

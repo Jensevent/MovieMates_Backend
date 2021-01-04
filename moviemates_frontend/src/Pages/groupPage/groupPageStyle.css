@@ -1,0 +1,17 @@
+.message{
+    display: block;
+    text-emphasis: bold;
+}
+
+.groupCard{
+    height: 83vh;
+    max-height: 82vh;
+    width: 50vh;
+    margin:auto;
+}
+
+.grouptitle{
+    font-weight: 500;
+    text-decoration: underline;
+
+}

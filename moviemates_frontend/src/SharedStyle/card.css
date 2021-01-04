@@ -1,0 +1,31 @@
+.custom-card{
+    height: 83vh; 
+    max-height: 81.5vh;
+    width: 50vh;
+    margin:auto;
+    border: solid 1px black;
+}
+
+.custom-card .body{
+    padding:0;
+    position: relative;
+    overflow:hidden;
+}
+
+.custom-card .title{
+    background-color: white;
+    display: block;
+    width: 100%;
+    text-align:center;
+    padding:8px;
+    margin:0px;
+}
+
+.customcard .img{
+    width: 100%;
+    top: 60%;
+}
+
+* img{
+    box-sizing: unset;
+}

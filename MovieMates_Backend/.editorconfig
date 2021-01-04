@@ -1,0 +1,13 @@
+﻿[*.cs]
+
+# Default severity for analyzer diagnostics with category 'Minor Code Smell'
+dotnet_analyzer_diagnostic.category-Minor Code Smell.severity = none
+
+# S101: Types should be named in PascalCase
+dotnet_diagnostic.S101.severity = silent
+
+# S1104: Fields should not have public accessibility
+dotnet_diagnostic.S1104.severity = none
+
+# IDE0040: Add accessibility modifiers
+dotnet_diagnostic.IDE0040.severity = none

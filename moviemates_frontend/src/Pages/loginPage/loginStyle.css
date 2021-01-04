@@ -1,0 +1,8 @@
+.page {
+  height: 100vh; 
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background: rgb(67,104,181);
+  background: radial-gradient(circle, rgba(67,104,181,1) 0%, rgba(22,63,147,1) 100%);
+} 
